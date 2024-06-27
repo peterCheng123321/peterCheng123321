@@ -1,5 +1,7 @@
 # 👋 Hi, I’m @peterCheng123321
 
+![Welcome Animation](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
+
 ## 👀 Interests
 I’m passionate about:
 - **Machine Learning**: Exploring the capabilities and efficiencies of LLM models.
@@ -68,7 +70,10 @@ I have a knack for blending technology and creativity, evident in my VR game dev
 - **Member, Photography Division** (2021.9-present)
 - Organized student events and managed photography sessions.
 
+![Thank You Animation](https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif)
+
 <!---
 peterCheng123321/peterCheng123321 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
