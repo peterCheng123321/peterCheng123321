@@ -1,79 +1,85 @@
-# 👋 Hi, I’m @peterCheng123321
+# 👋 Hey, I’m Peter Cheng
 
-![Welcome Animation](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
+[![Website](https://img.shields.io/badge/Portfolio-v0--personal--website--design--flame.vercel.app-blue?style=flat-square&logo=vercel)](https://v0-personal-website-design-flame.vercel.app)
 
-## 👀 Interests
-I’m passionate about:
-- **Machine Learning**: Exploring the capabilities and efficiencies of LLM models.
-- **Game Development**: Creating immersive VR experiences.
-- **Data Science**: Analyzing and forecasting data trends.
+---
 
-## 🌱 Currently Learning
-- Advanced Machine Learning Techniques
-- Graphical Design Software for Game Development
-- Fine-tuning Models with Specialized Data
+## 🧠 About Me
+
+CS undergrad @ Syracuse, building things that blend logic and interaction — from ML models to immersive VR. I like making tech that *feels* like magic but runs on code.
+
+---
+
+## 🔭 What I’m Working On
+
+- **VR Library Game** – Teaching students how to navigate resources through gesture-based gameplay (Unity + C#)
+- **Mobile Health App** – Encouraging outdoor activity with real-time feedback (Android)
+- **Emotion Sensing** – Using IMU + audio data to detect depressive signals (Research collab)
+
+---
 
 ## 💼 Experience
-### TsingHua University Computer Science Winter Camp, Beijing, China
-**Learning Assistant** (2018.1-2018.2)
-- Developed a WeChat chatbot using CNN networks.
-- Gained hands-on experience with TensorFlow in Python.
-- Deployed a demo to beta testers on campus.
 
-### Lamp Classroom Support, Syracuse, NY
-**Classroom Support** (2022.6-present)
-- Managed and regulated equipment in 400 classrooms.
-- Diagnosed and referred major hardware/software issues.
+**Asia Pulp & Paper** – *Data Science Intern*  
+📍 Shanghai, China — May 2023  
+→ Forecasted weekly sales using ML models  
+→ Proposed system improvements based on Qingfeng warehouse data
 
-### Syracuse University Library, Syracuse, NY
-**VR Game Developer** (2022.9-present)
-- Designed initial game sketches using 2D and 3D graphical software.
-- Published weekly development goals.
-- Led the structure and interior design of VR games.
+**F-Lab, Syracuse University** – *Research Assistant*  
+📍 Apr 2023  
+→ Fine-tuned LLMs with Python  
+→ Balanced cost vs. accuracy for deployment
 
-### F-lab, Syracuse, NY
-**Researcher** (2023.4-2023.5)
-- Increased the efficiency of existing LLM models.
-- Conducted research on fine-tuning machines with university library data.
+**Tsinghua University Winter Camp** – *Learning Assistant*  
+📍 Beijing, China — Jan 2018  
+→ Built a CNN chatbot for WeChat using TensorFlow  
+→ Tested with real users on campus
 
-### Asia Pulp & Paper Co., Shanghai, China
-**Data Science Intern** (2023.5-2023.6)
-- Analyzed weekly sales data from the data warehouse.
-- Used machine learning models to forecast future sales.
+---
 
-## 💞️ Looking to Collaborate On
-- AI projects that push the boundaries of current technology.
-- Innovative game development projects.
-- Advanced data analysis and machine learning applications.
+## 🧪 Projects
 
-## 📫 How to Reach Me
-- **Email**: zcheng05@syr.edu
-- **LinkedIn**: [Your LinkedIn Profile](#) *(Add your actual LinkedIn URL)*
+- **CourseEase** – Smart course planner built with React + Next.js  
+- **CuseHacks Site Rebrand** – Gave the hackathon site a modern UX  
+- **Facial Emotion App** – Real-time recognition at CuseHacks 2024  
+- **Depression Detection** – Sensor + audio fusion for emotion tracking  
+- **Android Activity Tracker** – Solo project to gamify outdoor habits
 
-## 😄 Pronouns
-He/Him
+---
 
-## ⚡ Fun Fact
-I have a knack for blending technology and creativity, evident in my VR game development and AI chatbot projects.
+## 🛠️ Tech Stack
 
-## 📜 Skills
-- **Technical**: Python, Java, R, C#, HTML, Haskell
-- **Languages**: Mandarin, English
+### Languages  
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)  
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)  
+![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)  
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)  
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)  
+![Haskell](https://img.shields.io/badge/-Haskell-5e5086?style=flat-square&logo=haskell&logoColor=white)
+
+### Tools  
+![Unity](https://img.shields.io/badge/-Unity-000000?style=flat-square&logo=unity&logoColor=white)  
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)  
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)  
+![Excel](https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
+
+---
+
+## 📫 Contact
+
+- **Email**: zcheng05@syr.edu  
+- **Location**: Syracuse, NY  
+- **LinkedIn**: [Insert your LinkedIn here]  
+
+---
 
 ## 🎓 Education
-**Syracuse University**, Syracuse, NY
-- **Degree**: Bachelor (Expected 2025.5)
-- **Relevant Coursework**: CIS351, ECS102
 
-## 🏆 Leadership & Activities
-**Chinese Student Union**, Syracuse, NY
-- **Member, Photography Division** (2021.9-present)
-- Organized student events and managed photography sessions.
+**Syracuse University**  
+B.S. in Computer Science (2021 – 2025)
 
-![Thank You Animation](https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif)
+---
 
-<!---
-peterCheng123321/peterCheng123321 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## ⚡ Fun Fact
 
+I once built a chatbot before I could legally drive. Now I train LLMs and build VR games for fun.
