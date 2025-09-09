@@ -9,7 +9,7 @@
 
 ## 🧠 About Me
 
-**Computer Science Student** at Syracuse University passionate about **data science**, **application development**, and **research**. I build solutions that bridge technology and human behavior — from VR experiences and mobile applications to machine learning pipelines and data-driven insights.
+**Computer Science Student** at Washington University in Saint Louis passionate about **data science**, **application development**, and **research**. I build solutions that bridge technology and human behavior — from VR experiences and mobile applications to machine learning pipelines and data-driven insights.
 
 📍 **Location:** Syracuse, New York  
 🎓 **Education:** Computer Science @ Syracuse University  
