@@ -1,100 +1,92 @@
-# 🎯 Zhongquan (Peter) Cheng
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-website--1wxnnk2ti--petercheng123321s--projects.vercel.app-blue?style=flat-square&logo=vercel)](https://website-1wxnnk2ti-petercheng123321s-projects.vercel.app)
-[![Email](https://img.shields.io/badge/Email-zcheng05@syr.edu-red?style=flat-square&logo=gmail)](mailto:zcheng05@syr.edu)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/zhongquan-cheng)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/peterCheng123321)
+<div align="center">
+  <h1>Hi there, I'm Peter (Zhongquan) Cheng 👋</h1>
+  <p><b>Computer Science Researcher & Software Engineer</b></p>
+  
+  [![Portfolio](https://img.shields.io/badge/Portfolio-petercheng.dev-blue?style=for-the-badge&logo=vercel)](https://petercheng.dev)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/zhongquan-cheng)
+  [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/peterCheng123321)
+  [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail)](mailto:chengzhongquan0630@gmail.com)
+</div>
 
 ---
 
-## 🧠 About Me
+## 🚀 About Me
 
-**Computer Science Student** at Washington University in Saint Louis passionate about **data science**, **application development**, and **research**. I build solutions that bridge technology and human behavior — from VR experiences and mobile applications to machine learning pipelines and data-driven insights.
+I am a computer science researcher and software developer passionate about **advanced machine learning**, **multimodal AI**, and **agentic frameworks**. Currently pursuing my MS in Computer Science, I specialize in building solutions that bridge complex backend architecture with cutting-edge AI research—ranging from Vision-Language Models and intelligent LLM routers to data-driven quantitative trading algorithms.
 
-📍 **Location:** Syracuse, New York  
-🎓 **Education:** Computer Science @ Syracuse University  
-💼 **Open to:** Software Engineering & Data Science Opportunities  
+- 🎓 **Education:** MS in Computer Science @ Washington University in St. Louis (Expected '26) | BS in Computer Science @ Syracuse University ('24)
+- 📍 **Location:** St. Louis, Missouri 
+- 💡 **Interests:** Multi-Agent Systems, Vision-Language Models, Quantitative Trading, Application Development
+- 💼 **Open to:** Software Engineering, AI/ML Engineering, and Data Science Opportunities
 
 ---
 
 ## 💼 Professional Experience
 
-### 🔹 Data Science Intern  
-**Asia Pulp & Paper Co.** | *April 2023 - May 2023*
-- Analyzed weekly sales data from Qingfeng data warehouse
-- Developed machine learning models to forecast next week's sales
-- Suggested improvements for data warehouse functionality to enhance extraction efficiency
+### 🔹 Computer Vision Researcher
+**AI for Health Institute, Washington University in St. Louis**
+- Conducting advanced research in computer vision and multimodal models.
 
-### 🔹 Research Assistant  
-**F-Lab, Syracuse University** | *April 2023*
-- Fine-tuned Large Language Models using Python
-- Optimized model performance balancing cost and accuracy for deployment
+### 🔹 Backend Intern
+**Undergraduation.com**
+- Developed and optimized backend architecture and API integrations.
 
-### 🔹 Learning Assistant  
-**Tsinghua University Computer Science Winter Camp** | *January 2018*
-- Built CNN-powered WeChat chatbot using TensorFlow
-- Conducted real-world user testing on campus
+### 🔹 Data Science Intern
+**Asia Pulp & Paper Co.** 
+- Analyzed weekly sales data from the Qingfeng data warehouse.
+- Developed machine learning models to forecast weekly sales trends.
+- Engineered improvements for data warehouse functionality to enhance extraction efficiency.
 
----
-
-## 🚀 Featured Projects
-
-### 🔹 [Depression Detection Research](https://github.com/peterCheng123321/Depression-Detection-IMU)
-> Mobile sensing application combining IMU and audio data for early detection of depressive symptoms  
-> `Android` `Machine Learning` `IMU Sensors` `Audio Processing` `Research`
-
-### 🔹 [Library VR Game](https://github.com/peterCheng123321/LibraryVR)
-> Unity-based educational VR experience teaching students library resource navigation through gesture-based gameplay  
-> `Unity` `C#` `VR Development` `Education Technology`
-
-### 🔹 Android Health Tracker
-> Mobile application encouraging outdoor activities with real-time feedback and sustainable fitness tracking  
-> `Android` `Java` `Health & Fitness` `Mobile Development`
-
-### 🔹 Emotion Recognition Web App
-> Syracuse Hackathon project: facial emotion analysis website built collaboratively  
-> `Web Development` `AI/ML` `Facial Recognition` `Hackathon`
-
-### 🔹 Machine Learning Projects
-> Comprehensive implementation of ML algorithms including linear/logistic regression and neural networks  
-> `Python` `Machine Learning` `Data Analysis` `Statistical Modeling`
+### 🔹 Research Assistant
+**F-Lab, Syracuse University** 
+- Fine-tuned Large Language Models using Python.
+- Optimized model performance by balancing computational cost and accuracy for deployment.
 
 ---
 
-## 🛠 Technical Skills
+## 🔬 Featured Projects
 
-### Programming Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=flat&logo=r&logoColor=white)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+### 🧠 Agentic Framework for Online Cognitive Error Detection
+Developed a multi-agent system designed to repair noisy symbolic action sequences on the Oatmeal107 dataset. The system actively learns from human action recognition (HAR) noise and dynamically repairs output labels during inference. 
+> `Python` `Multi-Agent Systems` `Machine Learning` `Action Recognition`
 
-### Tools & Technologies
-![Unity](https://img.shields.io/badge/-Unity-000000?style=flat&logo=unity&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat&logo=android&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-FF6F61?style=flat&logo=scikit-learn&logoColor=white)
-![Data Analysis](https://img.shields.io/badge/-Data%20Analysis-4CAF50?style=flat&logo=pandas&logoColor=white)
+### ⚡ Universal Smart LLM Router Plugin (SmartRoute)
+Engineered a product framework to fork and enhance an open-source routing engine, optimizing tool-calling loops and routing efficiency for large language models.
+> `LLMs` `API Integration` `Backend Architecture`
+
+### 📱 [Depression Detection Research](https://github.com/peterCheng123321/Depression-Detection-IMU)
+Built a mobile sensing application combining IMU and audio data for the early detection of depressive symptoms. 
+> `Android` `Machine Learning` `IMU Sensors` `Audio Processing`
+
+### 🎮 [Library VR Game](https://github.com/peterCheng123321/LibraryVR)
+Developed a Unity-based educational VR experience teaching students library resource navigation through gesture-based gameplay.
+> `Unity` `C#` `VR Development`
+
+---
+
+## 🛠️ Technical Stack
 
 ### Languages
-🇺🇸 **English** - Fluent  
-🇨🇳 **Chinese (Mandarin)** - Native Speaker
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+### AI, ML & Data
+![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-FF6F61?style=flat-square&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/-Data%20Analysis-4CAF50?style=flat-square&logo=pandas&logoColor=white)
+
+### Tools & Platforms
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Unity](https://img.shields.io/badge/-Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 
 ---
 
-## 📫 Let's Connect
-
-- 🌐 **Portfolio:** [website-1wxnnk2ti-petercheng123321s-projects.vercel.app](https://website-1wxnnk2ti-petercheng123321s-projects.vercel.app)
-- 📧 **Email:** [zcheng05@syr.edu](mailto:zcheng05@syr.edu)
-- 📱 **Phone:** 315-317-5618
-- 📍 **Location:** Syracuse, New York
-- 💼 **LinkedIn:** [Connect with me](https://linkedin.com/in/zhongquan-cheng)
-
----
-
-*"Passionate about building technology solutions that make a meaningful impact on people's lives."*
+<div align="center">
+  <i>"Passionate about building technology solutions that make a meaningful impact on people's lives."</i>
+</div>
