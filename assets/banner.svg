@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Zhongquan (Peter) Cheng — LightSpace</title>
+  <desc id="desc">Editorial banner for petercheng.dev: geometric grid, signal network, portfolio mark.</desc>
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6e7681" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#6e7681" stop-opacity="0.55"/>
+      <stop offset="80%" stop-color="#6e7681" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6e7681" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a371f7" stop-opacity="0.85"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#58a6ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8b949e" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- soft field -->
+  <rect width="1200" height="360" fill="#0d1117"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#orb)" transform="translate(780,40) scale(1.4)"/>
+
+  <!-- outer frame -->
+  <rect x="28" y="28" width="1144" height="304" fill="none" stroke="#30363d" stroke-width="1"/>
+  <rect x="36" y="36" width="1128" height="288" fill="none" stroke="#21262d" stroke-width="1"/>
+
+  <!-- corner ticks -->
+  <g stroke="#8b949e" stroke-width="1.5" stroke-linecap="square">
+    <path d="M36 56 V36 H56"/>
+    <path d="M1164 56 V36 H1144"/>
+    <path d="M36 304 V324 H56"/>
+    <path d="M1164 304 V324 H1144"/>
+  </g>
+
+  <!-- left meta -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#8b949e">
+    <text x="64" y="72" font-size="12" letter-spacing="3">PETERCHENG.DEV</text>
+    <text x="64" y="92" font-size="11" letter-spacing="2" fill="#6e7681">PORTFOLIO  ·  VOL. 01</text>
+  </g>
+
+  <!-- right meta -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#6e7681" text-anchor="end">
+    <text x="1136" y="72" font-size="11" letter-spacing="2">38.627° N</text>
+    <text x="1136" y="92" font-size="11" letter-spacing="2">ST. LOUIS, MO</text>
+  </g>
+
+  <!-- main name -->
+  <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" fill="#e6edf3">
+    <text x="64" y="180" font-size="56" font-weight="600" letter-spacing="-1">Zhongquan Cheng.</text>
+    <text x="64" y="220" font-size="18" fill="#8b949e" letter-spacing="0.2">Software engineer &amp; researcher  —  backends · applied ML · computer vision</text>
+  </g>
+
+  <!-- focus chips -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">
+    <rect x="64" y="250" width="92" height="28" rx="2" fill="none" stroke="#30363d"/>
+    <text x="110" y="268" text-anchor="middle" fill="#c9d1d9">BACKEND</text>
+    <rect x="166" y="250" width="118" height="28" rx="2" fill="none" stroke="#30363d"/>
+    <text x="225" y="268" text-anchor="middle" fill="#c9d1d9">APPLIED ML</text>
+    <rect x="294" y="250" width="78" height="28" rx="2" fill="none" stroke="#30363d"/>
+    <text x="333" y="268" text-anchor="middle" fill="#c9d1d9">VISION</text>
+    <rect x="382" y="250" width="128" height="28" rx="2" fill="none" stroke="url(#glow)" stroke-opacity="0.7"/>
+    <text x="446" y="268" text-anchor="middle" fill="#58a6ff">OPEN · SUMMER 2026</text>
+  </g>
+
+  <!-- right: abstract network (nodes + edges) -->
+  <g transform="translate(720, 110)" fill="none" stroke-linecap="round">
+    <!-- constellation edges -->
+    <g stroke="#30363d" stroke-width="1.2">
+      <path d="M40 40 L120 20 L200 70 L280 40"/>
+      <path d="M120 20 L140 100 L200 70"/>
+      <path d="M40 40 L80 120 L140 100"/>
+      <path d="M200 70 L260 130 L280 40"/>
+      <path d="M80 120 L160 150 L260 130"/>
+    </g>
+    <!-- accent path -->
+    <path d="M40 40 L120 20 L200 70 L260 130" stroke="url(#glow)" stroke-width="1.6" stroke-opacity="0.85"/>
+    <!-- nodes -->
+    <g fill="#0d1117" stroke="#8b949e" stroke-width="1.4">
+      <circle cx="40" cy="40" r="5"/>
+      <circle cx="120" cy="20" r="5"/>
+      <circle cx="200" cy="70" r="5"/>
+      <circle cx="280" cy="40" r="5"/>
+      <circle cx="140" cy="100" r="5"/>
+      <circle cx="80" cy="120" r="5"/>
+      <circle cx="160" cy="150" r="5"/>
+      <circle cx="260" cy="130" r="5"/>
+    </g>
+    <!-- primary node -->
+    <circle cx="200" cy="70" r="8" fill="none" stroke="url(#glow)" stroke-width="2"/>
+    <circle cx="200" cy="70" r="3" fill="#58a6ff"/>
+  </g>
+
+  <!-- bottom rule -->
+  <line x1="64" y1="308" x2="1136" y2="308" stroke="url(#fade)" stroke-width="1"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#6e7681" font-size="10" letter-spacing="2">
+    <text x="64" y="328">LIGHTSPACE</text>
+    <text x="1136" y="328" text-anchor="end">MS CS · WASHU</text>
+  </g>
+</svg>

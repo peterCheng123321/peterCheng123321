@@ -1,92 +1,184 @@
+<!--
+  Profile README — mirrors LightSpace / petercheng.dev
+  https://petercheng.dev
+
+  Graphics:
+  - assets/banner.svg  — static editorial header
+  - assets/signal.svg  — animated waveform (SMIL)
+  - assets/divider.svg — animated section rule
+-->
+
 <div align="center">
-  <h1>Hi there, I'm Peter (Zhongquan) Cheng 👋</h1>
-  <p><b>Computer Science Researcher & Software Engineer</b></p>
-  
-  [![Portfolio](https://img.shields.io/badge/Portfolio-petercheng.dev-blue?style=for-the-badge&logo=vercel)](https://petercheng.dev)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/zhongquan-cheng)
-  [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/peterCheng123321)
-  [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail)](mailto:chengzhongquan0630@gmail.com)
+
+  <!-- Static graphic art -->
+  <img
+    src="./assets/banner.svg"
+    alt="Zhongquan (Peter) Cheng — Software engineer & researcher · petercheng.dev"
+    width="900"
+  />
+
+  <!-- Animated signal trace -->
+  <br/>
+  <img
+    src="./assets/signal.svg"
+    alt="Animated signal trace"
+    width="720"
+  />
+
+  <br/><br/>
+
+  <!-- Typing-style line (external SVG animation; falls back fine if blocked) -->
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=680&height=56&lines=Building+reliable+backends+%26+applied+ML;Open+to+Summer+2026+%C2%B7+WashU+MS+CS"
+    alt="Building reliable backends and applied ML"
+  />
+
+  <br/>
+
+  **[petercheng.dev](https://petercheng.dev)**
+  &nbsp;·&nbsp;
+  [LinkedIn](https://www.linkedin.com/in/petercheng/)
+  &nbsp;·&nbsp;
+  [Email](mailto:chengzhongquan0630@gmail.com)
+  &nbsp;·&nbsp;
+  [Résumé](https://petercheng.dev/resume.pdf)
+
+  <br/><br/>
+
+  | | |
+  |:---|:---|
+  | **Now** | M.S. CS, WashU · Backend @ [Undergraduation.com](https://undergraduation.com) |
+  | **Focus** | Backend · Applied ML · Computer Vision |
+  | **Based** | St. Louis — prev. Syracuse, Shanghai |
+  | **Open to** | Summer 2026 internships & research |
+
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="720" />
+</p>
 
-## 🚀 About Me
+### § 00  ·  About
 
-I am a computer science researcher and software developer passionate about **advanced machine learning**, **multimodal AI**, and **agentic frameworks**. Currently pursuing my MS in Computer Science, I specialize in building solutions that bridge complex backend architecture with cutting-edge AI research—ranging from Vision-Language Models and intelligent LLM routers to data-driven quantitative trading algorithms.
+I build backend systems and ML pipelines at the intersection of reliable engineering and applied research: distributed request pipelines and LLM infrastructure at Undergraduation.com, sensor-based depression detection at Syracuse, and medical-imaging segmentation at WashU’s AI for Health Institute.
 
-- 🎓 **Education:** MS in Computer Science @ Washington University in St. Louis (Expected '26) | BS in Computer Science @ Syracuse University ('24)
-- 📍 **Location:** St. Louis, Missouri 
-- 💡 **Interests:** Multi-Agent Systems, Vision-Language Models, Quantitative Trading, Application Development
-- 💼 **Open to:** Software Engineering, AI/ML Engineering, and Data Science Opportunities
+A habit of picking up the hard part of the stack — and then finishing it.
 
----
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="720" />
+</p>
 
-## 💼 Professional Experience
+### § 01  ·  Experience
 
-### 🔹 Computer Vision Researcher
-**AI for Health Institute, Washington University in St. Louis**
-- Conducting advanced research in computer vision and multimodal models.
+<table>
+<tr>
+<td width="28%"><strong>Backend Intern</strong><br/><sub>Undergraduation.com</sub><br/><sub>Sep 2025 — Present</sub></td>
+<td>
 
-### 🔹 Backend Intern
-**Undergraduation.com**
-- Developed and optimized backend architecture and API integrations.
+- Distributed SSE + serverless request pipeline — 50+ concurrent users, zero blocking
+- Fault-tolerant LLM gateway with failover & latency-based A/B routing — 99.9% uptime
+- PostgreSQL composite-key caching — **−40%** redundant queries
+- Row-Level Security + middleware — zero cross-tenant leakage on vector search
 
-### 🔹 Data Science Intern
-**Asia Pulp & Paper Co.** 
-- Analyzed weekly sales data from the Qingfeng data warehouse.
-- Developed machine learning models to forecast weekly sales trends.
-- Engineered improvements for data warehouse functionality to enhance extraction efficiency.
+</td>
+</tr>
+<tr>
+<td width="28%"><strong>CV Researcher</strong><br/><sub>AI for Health Institute, WashU</sub><br/><sub>Jan 2025 — Jun 2026</sub></td>
+<td>
 
-### 🔹 Research Assistant
-**F-Lab, Syracuse University** 
-- Fine-tuned Large Language Models using Python.
-- Optimized model performance by balancing computational cost and accuracy for deployment.
+- Meta Sapien + OpenCV pipeline — segmentation masks across **10,000+** clinical frames
+- FFmpeg high-speed extraction — **−60%** preprocessing latency on 50+ hrs of footage
+- Dynamic exposure workflow — **+80%** human detection in low-light scenes
 
----
+</td>
+</tr>
+<tr>
+<td width="28%"><strong>Research Assistant</strong><br/><sub>Salekin Lab, Syracuse</sub><br/><sub>Feb 2024 — May 2025</sub></td>
+<td>
 
-## 🔬 Featured Projects
+- Android multi-modal IMU collection framework (Kotlin, Factory pattern)
+- Dockerized ML training — setup **2 hrs → 5 min**
+- Hybrid CNN-LSTM on high-frequency IMU — **87%** depression-biomarker accuracy
+- HIPAA-aligned handling with clinical partners
 
-### 🧠 Agentic Framework for Online Cognitive Error Detection
-Developed a multi-agent system designed to repair noisy symbolic action sequences on the Oatmeal107 dataset. The system actively learns from human action recognition (HAR) noise and dynamically repairs output labels during inference. 
-> `Python` `Multi-Agent Systems` `Machine Learning` `Action Recognition`
+</td>
+</tr>
+<tr>
+<td width="28%"><strong>Data Science Intern</strong><br/><sub>Asia Pulp & Paper</sub><br/><sub>May — Jun 2023</sub></td>
+<td>
 
-### ⚡ Universal Smart LLM Router Plugin (SmartRoute)
-Engineered a product framework to fork and enhance an open-source routing engine, optimizing tool-calling loops and routing efficiency for large language models.
-> `LLMs` `API Integration` `Backend Architecture`
+- XGBoost sales forecasting with lag features — **92%** prediction accuracy
+- ETL against the data warehouse — **−40%** extraction latency
+- High-dimensional transaction analysis for Shanghai-region strategy
 
-### 📱 [Depression Detection Research](https://github.com/peterCheng123321/Depression-Detection-IMU)
-Built a mobile sensing application combining IMU and audio data for the early detection of depressive symptoms. 
-> `Android` `Machine Learning` `IMU Sensors` `Audio Processing`
+</td>
+</tr>
+</table>
 
-### 🎮 [Library VR Game](https://github.com/peterCheng123321/LibraryVR)
-Developed a Unity-based educational VR experience teaching students library resource navigation through gesture-based gameplay.
-> `Unity` `C#` `VR Development`
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="720" />
+</p>
 
----
+### § 02  ·  Selected work
 
-## 🛠️ Technical Stack
+| # | Project | Stack | Link |
+|:-:|:---|:---|:---|
+| 01 | **Patient-Monitoring Vision Pipeline** — overhead clinical video, sequence-error detection | Python · PyTorch · Meta Sapien · OpenCV · FFmpeg | [→](https://petercheng.dev/projects/patient-vision) |
+| 02 | **Engineering Course Scheduler** — prereq-aware, conflict-free timetables | React · Node.js · AWS | [→](https://petercheng.dev/projects/course-scheduler) |
+| 03 | **ATS — Application Tracker** — Gmail ingestion + AI triage · *2nd place, Syracuse Tech Challenge* | React · Node · PostgreSQL · Gmail API | [→](https://petercheng.dev/projects/application-tracker) |
+| 04 | **IMU Depression-Signal Collector** — scheduled multi-modal sensing for Salekin Lab | Android · Kotlin · Signal Processing | [→](https://petercheng.dev/projects/imu-collector) |
+| 05 | **Library VR** — gesture-driven campus library onboarding | Unity · C# · VR | [→](https://petercheng.dev/projects/library-vr) |
 
-### Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="720" />
+</p>
 
-### AI, ML & Data
-![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-FF6F61?style=flat-square&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Data Analysis](https://img.shields.io/badge/-Data%20Analysis-4CAF50?style=flat-square&logo=pandas&logoColor=white)
+### § 03  ·  Studies & stack
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Unity](https://img.shields.io/badge/-Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+**Education**
+
+**Washington University in St. Louis**  
+M.S. Computer Science · Aug 2025 — May 2027  
+GPA 3.7/4.0 · Algorithms, Distributed Systems, ML, CV
+
+**Syracuse University**  
+B.S. Computer Science · Sep 2021 — May 2025  
+2nd Place · Syracuse Tech Challenge (AI for Mental Health)  
+Senior Workshop Lead · CuseHacks 2023–2025
+
+</td>
+<td width="50%" valign="top">
+
+**Competencies**
+
+`Python` `TypeScript` `Java` `C/C++` `C#` `SQL` `R`
+
+`PyTorch` `TensorFlow` `scikit-learn` `XGBoost` `OpenCV`  
+`pandas` `NumPy` `LLM orchestration`
+
+`Node` `React` `Next.js` `PostgreSQL` `Redis` `Pinecone`  
+`AWS` `Docker` `Android` `Unity` `FFmpeg`
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="720" />
+</p>
+
+### § 04  ·  Elsewhere
 
 <div align="center">
-  <i>"Passionate about building technology solutions that make a meaningful impact on people's lives."</i>
+
+[**petercheng.dev**](https://petercheng.dev) &nbsp;·&nbsp; [GitHub](https://github.com/peterCheng123321) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/petercheng/) &nbsp;·&nbsp; [Email](mailto:chengzhongquan0630@gmail.com)
+
+<br/>
+
+<sub>A good email beats a bad meeting. · Open to Summer 2026</sub>
+
 </div>

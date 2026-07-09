@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="Animated signal trace">
+  <defs>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#58a6ff" stop-opacity="0.95"/>
+      <stop offset="65%" stop-color="#a371f7" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a371f7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="64" fill="transparent"/>
+
+  <!-- baseline -->
+  <line x1="40" y1="32" x2="860" y2="32" stroke="url(#base)" stroke-width="1"/>
+
+  <!-- waveform path -->
+  <path
+    id="wave"
+    d="M40 32 C80 32 90 12 130 12 S180 52 220 52 S270 18 310 18 S360 46 400 46 S450 10 490 10 S540 54 580 54 S630 22 670 22 S720 40 760 40 S800 32 860 32"
+    fill="none"
+    stroke="url(#trace)"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-dasharray="920"
+    stroke-dashoffset="920"
+  >
+    <animate attributeName="stroke-dashoffset" values="920;0;920" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- traveling pulse -->
+  <circle r="3.5" fill="#58a6ff">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M40 32 C80 32 90 12 130 12 S180 52 220 52 S270 18 310 18 S360 46 400 46 S450 10 490 10 S540 54 580 54 S630 22 670 22 S720 40 760 40 S800 32 860 32"/>
+  </circle>
+  <circle r="10" fill="#58a6ff" opacity="0.18">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M40 32 C80 32 90 12 130 12 S180 52 220 52 S270 18 310 18 S360 46 400 46 S450 10 490 10 S540 54 580 54 S630 22 670 22 S720 40 760 40 S800 32 860 32"/>
+    <animate attributeName="opacity" values="0.22;0.05;0.22" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- end ticks -->
+  <g stroke="#6e7681" stroke-width="1">
+    <line x1="40" y1="24" x2="40" y2="40"/>
+    <line x1="860" y1="24" x2="860" y2="40"/>
+  </g>
+</svg>
