@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="72" viewBox="0 0 880 72" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Section 04 ELSEWHERE">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b949e" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8b949e" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8b949e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a371f7" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="72" rx="6" fill="#0d1117"/>
+  <rect x="1" y="1" width="878" height="70" rx="5" fill="none" stroke="#30363d"/>
+  <line x1="40" y1="71" x2="840" y2="71" stroke="#21262d" stroke-width="1"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="28" y="30" font-size="11" letter-spacing="3" fill="#58a6ff">§ 04</text>
+    <text x="88" y="30" font-size="11" letter-spacing="2" fill="#6e7681">/</text>
+    <text x="108" y="30" font-size="11" letter-spacing="2" fill="#8b949e">GET IN TOUCH</text>
+    <text x="28" y="54" font-size="18" font-weight="600" letter-spacing="0.5" fill="#e6edf3" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">ELSEWHERE</text>
+  </g>
+  <g transform="translate(800, 36)">
+    <circle r="10" fill="none" stroke="#30363d"/>
+    <circle r="3" fill="#58a6ff">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
