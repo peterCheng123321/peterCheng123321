@@ -13,6 +13,8 @@
   &nbsp;·&nbsp;
   <a href="mailto:chengzhongquan0630@gmail.com">Email</a>
   &nbsp;·&nbsp;
+  <a href="https://petercheng.dev/blog">Notes</a>
+  &nbsp;·&nbsp;
   <a href="https://petercheng.dev/resume.pdf">Resume</a>
 </p>
 
